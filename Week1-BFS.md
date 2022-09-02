@@ -112,6 +112,7 @@ Shortest path =  A C F H
 
 Advantage of BFS:
 1. It can always finds optimal solutions.
+
 Disadvantage of BFS:
 1. All of the connected vertices must be stored in memory. So consumes more memory
 
