@@ -104,7 +104,7 @@ def BFS2(start,end,graph):
                     return
             visit.append(nodes)
 ```
-```
+```python3
 BFS2('A', 'H', graph)
 ```
 The result is:
