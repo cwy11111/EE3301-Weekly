@@ -2,7 +2,7 @@
 
 Breadth-first search is an algorithm for searching a graph. There are two important things in BFS.
 Breadth means the algorithm will work on horizontally then vertically.
-We need to use queue which is the first-in-first-out method.
+We need to use queue, which is the first-in-first-out method, to store vertices.
 
 We usually use this algorithm to solve shortest path problems like starting from a point to an endpoint and we need to find the shortest path between two point.
 
@@ -110,6 +110,11 @@ BFS2('A', 'H', graph)
 The result is:
 Shortest path =  A C F H
 
+Advantage of BFS:
+1. It can always finds optimal solutions.
+Disadvantage of BFS:
+1. All of the connected vertices must be stored in memory. So consumes more memory
+
 Ref:
 Breadth-first search in 4 minutes
 https://www.youtube.com/watch?v=HZ5YTanv5QE&ab_channel=MichaelSambol
@@ -117,5 +122,6 @@ https://www.youtube.com/watch?v=HZ5YTanv5QE&ab_channel=MichaelSambol
 Building an undirected graph and finding shortest path using Dictionaries in Python
 https://www.geeksforgeeks.org/building-an-undirected-graph-and-finding-shortest-path-using-dictionaries-in-python/
 
-
+What are the advantages and disadvantages of DFS and BFS?
+https://www.quora.com/What-are-the-advantages-and-disadvantages-of-DFS-and-BFS
 
