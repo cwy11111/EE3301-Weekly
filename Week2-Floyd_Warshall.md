@@ -1,15 +1,12 @@
 # Floyd Warshall Algorithm
 
-**Floyd warshall algorithm** is one of the way to solve shortest path problem but the main idea when using floyd warshall algorithm is dynamic programming.
-The biggest differencd between **floyd warshall algorithm** and **dijkstra algorithm** is Floyd's algorithm finds the shortest path between all vertices and Dijkstra's algorithm finds the shortest path between a single vertex and all other vertices. 
+**Floyd warshall algorithm** is one of the ways to solve the shortest path problem but the main idea when using floyd warshall algorithm is dynamic programming. The biggest difference between floyd warshall algorithm and dijkstra algorithm is Floyd's algorithm finds the shortest path between all vertices and Dijkstra's algorithm finds the shortest path between a single vertex and all other vertices.
 
-When we are finding the shortest path between a single vertex and all other vertices, we will always use **Dijkstra Algorithm** and the main idea is using greedy algorithm. Using **Dijkstra Algorithm**, we need a adjacency matrix to store length and a priority queue to store vertices and other different thing to complete the algorithm to get the shortest path.
+When we are finding the shortest path between a single vertex and all other vertices, we will always use Dijkstra Algorithm and the main idea is using greedy algorithm. Using Dijkstra Algorithm, we need an adjacency matrix to store length and a priority queue to store vertices and other different things to complete the algorithm to get the shortest path.
 
-Normally, the time complexity of **Dijkstra Algorithm** is O(n^2), but when we need to find the shortest path between all vertices, we have to run n times **Dijkstra Algorithm** to get all the shortest path. And the time complexity will be O(n^3), it is same as **Floyd Warshall Algorithm**.
-
-If we want to optimization our code, we may need to use **Floyd warshall algorithm** when we are finding the shortest path between all vertices. 
-
-Let use this grapth as example:
+Normally, the time complexity of Dijkstra Algorithm is O(n^2), but when we need to find the shortest path between all vertices, we have to run n times Dijkstra Algorithm to get all the shortest paths. And the time complexity will be O(n^3), which is the same as Floyd Warshall Algorithm.
+If we want to optimize our code, we may need to use Floyd warshall algorithm when we are finding the shortest path between all vertices.
+Let's use this graph as example:
 
 <img width="300" alt="Screenshot 2022-09-10 at 00 53 43" src="https://user-images.githubusercontent.com/25585589/189401587-acca9579-fd17-40e9-b7a7-7a81149cc98e.png">
 
