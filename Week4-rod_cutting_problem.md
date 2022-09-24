@@ -60,3 +60,5 @@ Therefore, the solution is n = 9
 j = 9, s[j] = 3
 j = 9 - 3 = 6, s[j] = 6
 So cut 9 into {3, 6}
+
+Ref: https://www.geeksforgeeks.org/cutting-a-rod-dp-13/
